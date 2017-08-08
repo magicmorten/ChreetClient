@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.list-view {
+	-fx-border-width: 2px;
+	-fx-border-color: #175919;
+	-fx-font-family: 'Abel', sans-serif;
+	-fx-font-weight: bold;
+
+}
+
+.button {
+	-fx-background-radius: 100px;
+	-fx-border-radius: 100px;
+	-fx-border-width: 2px;
+	-fx-border-color: #175919;
+	-fx-font-family: 'Abel', sans-serif;
+	-fx-font-weight: bold;
+}
+
+
+#menuButton {
+	-fx-background-radius: 0px;
+	-fx-border-radius: 0px;
+}
+
+#profileButton {
+	-fx-background-radius: 0px;
+	-fx-border-radius: 0px;
+}
+
+.text-field {
+	-fx-border-radius: 100px;
+	-fx-background-radius: 100px;
+	-fx-border-width: 2px;
+	-fx-border-color: #175919;
+	-fx-font-family: 'Abel', sans-serif;
+	-fx-font-weight: bold;
+}
+
+
+
+
+
