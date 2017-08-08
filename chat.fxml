@@ -5,14 +5,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="372.0" stylesheets="@../Documents/GitHub/ChreetClient/chreetTheme.css" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="323.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
-      <TextField layoutX="91.0" layoutY="455.0" prefHeight="30.0" prefWidth="232.0" />
-      <Button id="menuButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="48.0" text="Button" />
-      <ListView layoutX="62.0" layoutY="67.0" prefHeight="378.0" prefWidth="291.0" />
-      <Button layoutX="61.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="Emoji" />
-      <Button id="profileButton" layoutX="62.0" layoutY="14.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="291.0" text="Button" />
+      <TextField layoutX="62.0" layoutY="466.0" prefHeight="30.0" prefWidth="291.0" />
+      <Button layoutX="322.0" layoutY="466.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+      <Button id="menuButton" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="48.0" text="Button" />
+      <ListView layoutX="62.0" layoutY="70.0" prefHeight="388.0" prefWidth="284.0" />
+      <Button id="profileButton" layoutX="62.0" layoutY="14.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="291.0" stylesheets="@../Documents/GitHub/ChreetClient/chreetTheme.css" text="Button" />
    </children>
 </Pane>
