@@ -1,9 +1,39 @@
+import java.io.File;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 
-public class Application {
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import server.ChreetApi;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Application extends javafx.application.Application{
+
+	public static ChreetApi api;
+	
+	public static void main(String[] args) throws URISyntaxException {
+		api = new ChreetApi(new URI("ws://localhost:8080/stream"));
+		api.startUp();
+		
+		launch(args);
 		
 	}
-	//whhy
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+	  	Parent p = null;
+			File n = new File("login.fxml");
+			try {
+				FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
+				Scene sc = new Scene(loader.load());
+				primaryStage.setScene(sc);
+				primaryStage.show();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+	}
+
 }

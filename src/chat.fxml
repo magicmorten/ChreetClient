@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="372.0" stylesheets="@../Documents/GitHub/ChreetClient/chreetTheme.css" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatController">
+   <children>
+      <TextField fx:id="txtfield_Message" layoutX="62.0" layoutY="466.0" prefHeight="30.0" prefWidth="291.0" />
+      <Button fx:id="btn_SendMessage" layoutX="322.0" layoutY="466.0" mnemonicParsing="false" onAction="#SendMessage" prefHeight="30.0" prefWidth="30.0" />
+      <Button id="menuButton" fx:id="btn_Menu" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#OpenMenu" prefHeight="47.0" prefWidth="48.0" text="Menu" />
+      <ListView fx:id="List_Chat" layoutX="62.0" layoutY="70.0" onEditStart="#ShowComment" prefHeight="388.0" prefWidth="284.0" />
+      <Button id="profileButton" fx:id="btn_Profile" layoutX="62.0" layoutY="14.0" mnemonicParsing="false" onAction="#OpenProfile" prefHeight="47.0" prefWidth="291.0" stylesheets="@../Documents/GitHub/ChreetClient/chreetTheme.css" text="Profile" />
+   </children>
+</Pane>
