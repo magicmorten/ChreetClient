@@ -29,6 +29,7 @@ public class Application extends javafx.application.Application{
 			try {
 				FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
 				Scene sc = new Scene(loader.load());
+				sc.getStylesheets().add("chreetTheme.css");
 				primaryStage.setScene(sc);
 				primaryStage.show();
 			} catch (IOException e) {

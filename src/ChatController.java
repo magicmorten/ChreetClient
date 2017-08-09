@@ -80,6 +80,7 @@ public class ChatController implements ChreetListener {
 			public void run() {
 				System.out.println(msg.getSender().getUsername() + ": " + msg.getContent());
 				
+				
 			}
 			
 		});

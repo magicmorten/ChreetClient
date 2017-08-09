@@ -44,6 +44,7 @@ public class ExpController implements ChreetListener {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("registration.fxml"));
 			Scene sc = new Scene(loader.load());
+			sc.getStylesheets().add("chreetTheme.css");
 			registerStage.setScene(sc);
 			ExpController e = new ExpController();
 			registerStage.show();
@@ -84,6 +85,7 @@ public class ExpController implements ChreetListener {
 				try {
 					FXMLLoader loader = new FXMLLoader(getClass().getResource("chat.fxml"));
 					Scene sc = new Scene(loader.load());
+					sc.getStylesheets().add("chreetTheme.css");
 					chatStage.setScene(sc);
 					chatStage.show();
 				} catch (IOException e) {
